@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://cave_scenes/s_2.tscn" type="PackedScene" id=1]
+[ext_resource path="res://cave_scenes/d_0.tscn" type="PackedScene" id=2]
 
 [node name="map" type="Spatial"]
 
@@ -8,3 +9,6 @@
 
 [node name="block2" parent="." instance=ExtResource( 1 )]
 transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 3, 23.9794 )
+
+[node name="block3" parent="." instance=ExtResource( 2 )]
+transform = Transform( 3, 0, 0, 0, 3, 0, 0, 0, 3, 0.17717, 2.59495, 71.1228 )
